@@ -3,10 +3,24 @@
     src: url(/Fonts/Pacifico-Regular.ttf);
    
 }
+@font-face{
+    font-family: OleoScript;
+    src: url(/Fonts/OleoScript-Regular.ttf);
+}
+@font-face{
+    font-family: Kufam;
+    src: url(/Fonts/Kufam-Italic-VariableFont_wght.ttf);
+}
 .fonts1{
     font-family: Pacifico;
     
 }
+marquee{
+    font-size: 20px;
+    font-weight: 800;
+    color: #3e10be;
+    font-family: OleoScript;
+    }
 .preloader-background{
     position: fixed;
     z-index: 999999;

@@ -3,6 +3,9 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+    <meta name="description" content="CampusSathi, the Socio-Academic Portal of Axis Colleges, is the most frequently visited website of Axis Colleges. It was started out by a team of three enthusiastic students with an aim to provide a holistic solution to all student needs;">
+    <meta name="keywords" content="campussathi,CampusSathi,campusathi,SathiCampus,Vimal Pandey,Mukesh Maddheshiya">
+    <meta name="author" content="Vimal_Pandey">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
@@ -40,7 +43,7 @@
               <a class="nav-link" href="http://localhost/CampusSathi/AxisUpdate/">Study Material</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Axis Update</a>
+              <a class="nav-link" href="http://localhost/CampusSathi/AxisMedia/">Axis Update</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Contact.html">Contact Us</a>
@@ -83,29 +86,31 @@
               <h3 class="font-weight-bold">Contact Us</h3>
     
               <!-- Material outline input -->
-            
+            <form action="form_contact.php" method="POST">
               <div class="md-form md-outline mt-3">
-                <input type="email" id="form-email" class="form-control">
+                <input type="email" id="form-email" class="form-control" name="email">
                 <label for="form-email">E-mail</label>
               </div>
     
               <!-- Material outline input -->
               <div class="md-form md-outline">
-                <input type="text" id="form-subject" class="form-control">
+                <input type="text" id="form-subject" class="form-control" name="subject">
                 <label for="form-subject">Subject</label>
               </div>
     
               <!--Material textarea-->
               <div class="md-form md-outline mb-3">
-                <textarea id="form-message" class="md-textarea form-control" rows="5"></textarea>
+                <textarea id="form-message" class="md-textarea form-control" rows="5" name="message"></textarea>
                 <label for="form-message">How we can help?</label>
               </div>
     
-              <button type="submit" class="btn btn-info btn-sm ml-0">Submit<i class="far fa-paper-plane ml-2"></i></button>
-     
+              <button id="submit" type="submit" name="submit" class="btn btn-info btn-sm ml-0">Submit<i class="far fa-paper-plane ml-2"></i></button>
+            </form>
             </div>
             <!--Grid column-->
-    
+            
+
+
           </div>
           <!--Grid row-->
     
@@ -248,7 +253,16 @@
             <a href="#!">Result</a>
           </p>
           <p>
-            <a href="#!">Projects</a>
+            <a href="#!">Syllabus</a>
+          </p>
+          <p>
+            <a href="#!">Datesheet</a>
+          </p>
+          <p>
+            <a href="#!">Internship</a>
+          </p>
+          <p>
+            <a href="#!">Placement</a>
           </p>
   
         </div>
@@ -261,16 +275,16 @@
           <h6 class="text-uppercase font-weight-bold">Axis Update</h6>
           <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
           <p>
-            <a href="#!">Datesheet</a>
+            <a href="#!">Campus</a>
           </p>
           <p>
-            <a href="#!">Notice</a>
+            <a href="#!">Departements</a>
           </p>
           <p>
-            <a href="#!">Placement</a>
+            <a href="#!">College Fests</a>
           </p>
           <p>
-            <a href="#!">Other</a>
+            <a href="#!">Student Corner</a>
           </p>
   
         </div>
@@ -325,6 +339,8 @@
         setTimeout(function(){
             $('.preloader-background').fadeToggle();
         },1500);
+
+    
     </script>
   </body>
 </html>
