@@ -1,11 +1,5 @@
-# wordpress specific
-AxisUpdate/wp-config.php
-AxisUpdate/wp-content/uploads/
-AxisUpdate/wp-content/blogs.dir/
-AxisUpdate/wp-content/upgrade/*
-AxisUpdate/wp-content/backup-db/*
-AxisUpdate/wp-content/advanced-cache.php
-AxisUpdate/wp-content/wp-cache-config.php
-AxisUpdate/wp-content/cache/*
-AxisUpdate/wp-content/cache/supercache/*
-AxisMedia
+# wordpress 
+
+
+AxisUpdate/wp-content/uploads
+AxisMedia/wp-content/uploads

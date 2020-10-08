@@ -18,7 +18,6 @@
  }
  else
  {
-    // header("Location:contact.html");
      echo '<script>
      alert("Than You for contacting us.");
      window.location.href="contact.html";
